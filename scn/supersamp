@@ -1,0 +1,10 @@
+view 100 .5
+ambient .2 .2 .2
+background .2 .2 .2
+light 1.0 1.0 1.0  1 1 5
+
+group
+	material 1 0 0 .7 .7 .7 30
+	move 0 0 -1.5
+	sphere
+groupend

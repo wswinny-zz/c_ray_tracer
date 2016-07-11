@@ -1,0 +1,94 @@
+view 1024 .5
+ambient 1 1 1
+background 0.0 0.0 0.0
+light 1.0 1.0 1.0  20.0 0.0 5.0
+light 1.0 1.0 1.0  -20.0 0.0 5.0
+light 1.0 1.0 1.0  0 50 0
+
+#body
+group
+	#kriby pink
+	material .368 .2 .270 0 0 0 30
+	move 0 0 -3
+	sphere
+groupend
+
+#foot right
+group
+	#kriby foot pink
+	material .31 .0 .08 0 0 0 30
+	move .7 -.7 -2.7
+	rotate -33 0 0 1
+	scale .5 .3 .3
+	sphere
+groupend
+
+#foot left
+group
+	#kriby foot pink
+	material .31 .0 .08 0 0 0 30
+	move -.7 -.7 -2.7
+	rotate 33 0 0 1
+	scale .5 .3 .3
+	sphere
+groupend
+
+#hand right
+group
+	#kriby pink
+	material .368 .2 .270 0 0 0 30
+	move .9 .3 -2.7
+	rotate 33 0 0 1
+	scale .5 .3 .3
+	sphere
+groupend
+
+#hand left
+group
+	#kriby pink
+	material .368 .2 .270 0 0 0 30
+	move -.9 .3 -2.7
+	rotate -33 0 0 1
+	scale .5 .3 .3
+	sphere
+groupend
+
+#eye left
+group
+	#kriby eye blue
+	material 0 0 1 0 0 0 30
+	move -.3 .3 -2.15
+	rotate -27 1 0 0
+	scale .1 .2 .1
+	sphere
+groupend
+
+#eye right
+group
+	#kriby eye blue
+	material 0 0 1 0 0 0 30
+	move .3 .3 -2.15
+	rotate -27 1 0 0
+	scale .1 .2 .1
+	sphere
+groupend
+
+#eye white left
+group
+	#kriby eye blue
+	material 1 1 1 0 0 0 30
+	move -.3 .4 -2.10
+	rotate -27 1 0 0
+	scale .05 .05 .05
+	sphere
+groupend
+
+#eye white right
+group
+	#kriby eye blue
+	material 1 1 1 0 0 0 30
+	move .31 .4 -2.10
+	rotate -27 1 0 0
+	scale .05 .05 .05
+	sphere
+groupend

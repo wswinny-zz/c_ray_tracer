@@ -1,0 +1,26 @@
+view 1024 .5
+ambient .2 .2 .2
+background 0.0 0.0 0.0
+light 1.0 1.0 1.0  50.0 5.0 30.0
+light 1.0 1.0 1.0 -50.0 5.0 30.0
+
+group
+	material 0 0 0 1 1 1 30
+	texture ./texture/marble.jpg
+	move -.7 .7 -4
+	sphere
+groupend
+
+group
+	material 0 0 0 1 1 1 30
+	texture ./texture/wood.jpg
+	move .7 .7 -4
+	sphere
+groupend
+
+group
+	material 0 0 0 1 1 1 30
+	texture ./texture/granite.jpg
+	move 0 -.5 -4
+	sphere
+groupend
