@@ -1,0 +1,55 @@
+view 1024 .5
+ambient 1 1 1
+background 0.0 0.0 0.0
+light 1.0 1.0 1.0  5 5 5
+
+group
+	material .8 .8 .8 .7 .7 .7 20
+	move 0 -2 -5
+	sphere
+groupend
+
+group
+	material .8 .8 .8 .7 .7 .7 20
+	move 0 -.7 -5
+	scale .5 .5 .5
+	sphere
+groupend
+
+group
+	material .8 .8 .8 .7 .7 .7 20
+	move 0 -.05 -5
+	scale .3 .3 .3
+	sphere
+groupend
+
+group
+	material .7 .5 0 0 0 0 20
+	move 0 -.1 -5
+	move 0 0 0.3
+	scale .05 .05 .2
+	sphere
+groupend
+
+group
+	material 0 0 0 0 0 0 20
+	move -.1 .07 -5
+	move 0 0 0.25
+	scale .05 .05 .05
+	sphere
+groupend
+
+group
+	material 0 0 0 0 0 0 20
+	move .1 .07 -5
+	move 0 0 0.25
+	scale .05 .05 .05
+	sphere
+groupend
+
+group
+	material .1 .7 .1 0 0 0 20
+	move 0 -1003 5
+	scale 1000 1000 1000
+	sphere
+groupend
